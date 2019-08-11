@@ -1,0 +1,48 @@
+/*
+    Last Updated August 11, 2019
+    DISCLAIMER: This is a fan/parody website to go along with the OJ2 fanfic on CloudNovel.
+    All characters are based on those found in 100% Orange Juice from Orange Juice
+    and Fruitbat Factory. All rights belong to and are the property of their respective
+    rights holders. To contact us with any questions or concerns,
+    please email: kaitags.com@domainsbyproxy.com
+    -MarshalBanana
+*/
+
+body{
+    background-image: linear-gradient(#faa22f, #ffffff);
+  	background-repeat: repeat-x;
+    min-height: 1000px;
+}
+
+/* Nav bar info from W3 Schools: https://www.w3schools.com/howto/howto_js_topnav.asp */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Styling the links */
+.navbar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Hover link color */
+.navbar a:hover {
+  background-color: #faa22f;
+  color: white;
+}
+
+/* Removing the bullets from ul */
+.navbar_links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#intro{
+    border-style: solid;
+}
