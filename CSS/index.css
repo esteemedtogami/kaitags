@@ -43,6 +43,38 @@ body{
   padding: 0;
 }
 
+/* Intro Div styling */
 #intro{
+    background-image: url('../IMG/attack.PNG');
+    background-repeat: no-repeat;
+    height: 200px;
+    /*border-style: solid;*/
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#intro > h1{
+    color: #f2ebeb;
+
+}
+
+#intro > h3{
+    color: #f2ebeb;
+}
+
+/* video preview div styling */
+#video_preview{
+    /* border-style: solid; */
+    float: left;
+    width: 560px;
+    height: 315px;
+}
+
+/* comment stream styling */
+#comment_stream{
     border-style: solid;
+    background-image: url('../IMG/comment_stream_1.png');
+    float: right;
+    width: 600px;
+    height: 315px;
 }
