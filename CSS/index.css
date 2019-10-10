@@ -64,19 +64,34 @@ body{
 
 /* video preview div styling */
 #video_preview{
-    /* border-style: solid; */
+    clear: both;
+    /*
+    text-align: center;
+    /*border-style: solid;
     float: left;
-    /*width: 560px;*/
-    width: 50%;
+    margin: auto;
+    width: 560px;
     height: 315px;
+    display: inline-block;
+    */
+    width: 50%;
+    margin: 0 auto;
 }
 
 /* comment stream styling */
 #comment_stream{
+    clear: both;
     border-style: solid;
     background-image: url('../IMG/comment_stream_1.png');
-    float: right;
-    /*width: 600px;*/
-    width: 45%;
+    /*
+    text-align: center;
+    float: left;
+    width: 600px;
+
+    display: inline-block;
+    */
+    width: 560px;
     height: 315px;
+    margin-left: 25%;
+    margin-right: 75%;
 }
