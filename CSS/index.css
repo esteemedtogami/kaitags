@@ -75,23 +75,36 @@ body{
     display: inline-block;
     */
     width: 50%;
-    margin: 0 auto;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video_preview iframe{
+    height: 315px;
+    width: 100%;
 }
 
 /* comment stream styling */
 #comment_stream{
     clear: both;
-    border-style: solid;
-    background-image: url('../IMG/comment_stream_1.png');
+    /*background-image: url('../IMG/comment_stream_1.png');*/
     /*
+    border-style: solid;
     text-align: center;
     float: left;
     width: 600px;
 
     display: inline-block;
     */
-    width: 560px;
-    height: 315px;
-    margin-left: 25%;
-    margin-right: 75%;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*layout of comment*/
+#comment{
+    width: 100%;
+    height: 100%;
 }
